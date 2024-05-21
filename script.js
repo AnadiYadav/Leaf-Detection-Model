@@ -1,30 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Add event listeners for search button and select element
-  document.getElementById("select-el").addEventListener("change", handleSelectChange);
+  document.getElementById("select-el").addEventListener("change", handleSelect);
   // document.getElementById("select-el2").addEventListener("change", handleSearch);
-  let searchBtn = document.getElementById("search-button");
-  searchBtn.addEventListener("click", handleSearch);
+  let searchButn = document.getElementById("search-button");
+  searchButn.addEventListener("click", handleSearches);
 });
 
 // Function to handle changes in the select element
-function handleSelectChange(event) {
-  let selectedValue = event.target.value;
-  if (selectedValue === "1") {
+function handleSelect(event) {
+  let selectedValu = event.target.value;
+  if (selectedValu === "1") {
     openCamera();
-  } else if (selectedValue === "2") {
-    clearImagePreview();
+  } else if (selectedValu === "2") {
+    clearImagPreview();
     createImageInput();
   } else {
-    clearImagePreview();
+    clearImagPreview();
   }
 }
 
 // Function to handle search action
-async function handleSearch() {
-  const selectedVal = document.getElementById("select-el2").value;
-  if (selectedVal === "1") {
+async function handleSearches() {
+  const selectedVall = document.getElementById("select-el2").value;
+  if (selectedVall === "1") {
     search();
-  } else if (selectedVal === "2") {
+  } else if (selectedVall === "2") {
     search2();
   } else {
     console.log("Select option First");
@@ -32,7 +32,7 @@ async function handleSearch() {
 }
 
 // Function to clear image preview
-function clearImagePreview() {
+function clearImagPreview() {
   const capturedImgPreview = document.getElementById("capturedImg-preview");
   capturedImgPreview.innerHTML = '';
 }
