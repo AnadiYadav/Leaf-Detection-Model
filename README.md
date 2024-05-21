@@ -1,6 +1,6 @@
 # Dhanvantari-Leaf-Detection-Model
 
-Overview
+# Overview
 
 This repository contains the code and resources for a Leaf Detection Model. The goal of this project is to develop a machine learning model that can accurately detect and classify different types of leaves. This project can be useful in various applications such as plant identification, agricultural monitoring, and environmental studies.
 
@@ -14,12 +14,12 @@ In this project we have two models:-
 
 
 
-My Contribution
+# My Contribution
 
 I did the web-development part of this project including both Frontend and Backend.
 
 
-How to use our website?
+# How to use our website?
 
 Our website is very simple to use. We have provided two options in which user can select whether he/she want to upload image from device or want to take live picture from camera. 
 
@@ -28,6 +28,6 @@ After uploading the image user can select from the dropdown whether he/she want 
 Then click on the search button and the result will be displayed.
 
 
-Tech-Stack
+# Tech-Stack
 
 Html,CSS,Javascript,Bootstrap 
